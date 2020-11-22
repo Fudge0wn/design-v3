@@ -1,6 +1,6 @@
 ---
 Logo: image/kurt.png
-Tagline: Min designportfölj.
+Tagline: My portfolio
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/Fudge0wn/design-v3

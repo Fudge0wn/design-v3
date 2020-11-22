@@ -19,9 +19,15 @@
     transition: height 0.5s ease-in !important;
 }
 
+.flash-img {
+    max-width: 48em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+}
+
 #nav {
     padding: 3em 0;
-    text-align: right;
+    text-align: center;
 }
 
 #nav ul {

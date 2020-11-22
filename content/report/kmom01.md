@@ -21,7 +21,7 @@ Det är kul att webbdesign går framåt på webben, men jag tycker mig ofta se a
 
 ### Hur kändes det att göra din egna layout och styla den? Gick det bra?
 
-Det var väldigt svårt att göra sin egna layout, men det ska bli kul att jobba på den under kursens gång. Jag började med att modifiera dbwebb-temat med ny flash-bild m.m, för att ha som nån slags mall och utgångspunkt för hur jag kunde forma mitt egna tema.
+Det var väldigt svårt att göra sin egna layout, men det ska bli kul att jobba på den under kursens gång, speciellt när det gäller att förstå en del av koden i twig-filerna för att få vissa bilder och text att hamna rätt på hemsidan. Jag började med att modifiera dbwebb-temat med ny flash-bild m.m, för att ha som nån slags mall och utgångspunkt för hur jag kunde forma mitt egna tema.
 
 ### Vilken är din TIL för detta kmom?
 

@@ -24,8 +24,10 @@
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
 
 </head>
+
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
+
     <div class="header" role="banner">
         <div class="container">
             <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
@@ -66,6 +68,7 @@
             {{ content }}
         </div>
     </div>
+
     <div class="footer">
         <div class="container">
             <div class="social">
