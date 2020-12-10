@@ -1,0 +1,31 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+// $base-color: #3d9970; // light #3d9970
+
+@import '../../shared/scss/base';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    line-height: 1.3;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 1.11em;
+    margin-bottom: 1.44rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    // font-size: 2.48em;
+    margin-bottom: 2.88rem;
+    font-family: 'Open Sans', sans-serif;
+}
