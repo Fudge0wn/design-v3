@@ -1,0 +1,56 @@
+/* report.scss */
+.grid { display: grid; }
+
+.landingpage {
+    max-width: 48em;
+    margin: 0 auto;
+    gap: 1em 1em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+// .landingpage h1 {
+//     grid-column: 1;
+//     grid-row: 1;
+//     justify-self: center;
+// }
+
+.report-wrap {
+    width: 100%;
+    grid-column: 1;
+    grid-row: 2 / 2;
+    margin: 0 auto;
+    grid-gap: 25px;
+    grid-template-areas: 'headline headline headline' 'kmom01 kmom02 kmom03' 'kmom04 kmom05 kmom06' 'project project project';
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.kmom-wrap h1 {
+    grid-area: headline;
+    justify-self: center;
+}
+
+.kmom-box {
+    height: 200px;
+    line-height: 200px;
+    border: 2px solid #000;
+}
+
+.kmom01 { grid-area: kmom01; }
+.kmom02 { grid-area: kmom02; }
+.kmom03 { grid-area: kmom03; }
+.kmom04 { grid-area: kmom04; }
+.kmom05 { grid-area: kmom05; }
+.kmom06 { grid-area: kmom06; }
+.project { grid-area: project; }
+
+/* --------------- Responsiveness --------------- */
+@media screen and (max-width: 48em) {
+    .report-wrap {
+        padding: 1em;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 'headline' 'kmom01' 'kmom02' 'kmom03' 'kmom04' 'kmom05' 'kmom06' 'project';
+    }
+}

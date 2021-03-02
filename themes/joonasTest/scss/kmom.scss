@@ -1,0 +1,41 @@
+.kmom-wrap {
+    width: 100%;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0 auto;
+    grid-gap: 25px;
+    grid-template-areas: 'side-bar kmom-page';
+    grid-template-columns: 200px 1fr;
+}
+
+.side-bar {
+    grid-area: side-bar;
+    box-sizing: border-box;
+    padding-top: 2em;
+}
+
+.side-bar a {
+    text-decoration: none;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+
+.side-bar :hover {
+    text-decoration: underline;
+}
+
+.side-bar :visited {
+    color: #000;
+}
+
+.kmom-page { grid-area: kmom-page; }
+
+/* --------------- Responsiveness --------------- */
+@media screen and (max-width: 48em) {
+    .kmom-wrap {
+        padding: 1em;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 'kmom-page';
+    }
+}
